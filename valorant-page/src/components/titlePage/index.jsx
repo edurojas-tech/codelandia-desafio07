@@ -17,7 +17,10 @@ export default function TitlePage() {
                 <button>BAIXAR AGORA</button>
             </div>
             <div className="TitlePage__itens">
-                © 2021 Riot Games, Inc. Riot Games, VALORANT e quaisquer logotipos associados são marcas comerciais, marcas de serviço e/ou marcas registradas da Riot Games, Inc.
+                <p>
+                    © 2021 Riot Games, Inc. Riot Games, VALORANT e quaisquer logotipos associados são marcas comerciais, 
+                    marcas de serviço e/ou marcas registradas da Riot Games, Inc.
+                </p>
             </div>
         </div>
     )

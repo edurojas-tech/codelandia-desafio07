@@ -84,4 +84,8 @@ button {
     .TitlePage__itens > h2 {
         font-size: 25px;
     }
+
+    .TitlePage__itens > p {
+        font-size: 15px;
+    }
 }
