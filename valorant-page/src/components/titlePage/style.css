@@ -1,0 +1,87 @@
+.TitlePage {
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 55px;
+}
+
+.TitlePage__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    
+}
+
+.TitlePage__itens > h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+
+.TitlePage__itens > h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+button {
+    padding: 25px 68px;
+    width: 320px;
+    background: linear-gradient(0deg, #FF4655, #FF4655),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+@media(max-width: 1400px) {
+    .TitlePage {
+        font-size: 14px;
+        gap: 55px;
+    }
+
+        
+    .TitlePage__itens > h2 {
+        font-size: 18px;
+    }
+
+    .TitlePage__itens > h1 {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 444px){
+    .TitlePage{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .logoVALORANT {
+        width: 100%;
+    }
+
+    .TitlePage__itens > h1 {
+        font-size: 26px;
+    }
+
+    .TitlePage__itens > h2 {
+        font-size: 25px;
+    }
+}

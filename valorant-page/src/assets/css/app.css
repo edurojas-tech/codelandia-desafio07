@@ -6,21 +6,50 @@
     margin: 0;
     
 }
-.app {
+
+body {
     background-image: url("../images/bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     height: 100vh;
-    padding: 0 100px;
+    overflow: hidden;
 }
 
 .app > div {
-    padding: 65px 0;
+    padding: 35px 0 0 0;
+}
+
+.app__itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 @media(max-width: 650px) {
-    .app {
-        padding: 0 10px !important;
+    body {
+        padding: 0 20px !important;
+    }
+}
+
+@media(min-width: 1400px) {
+    body {
+        padding: 110px 190px 0 190px;
+    }
+}
+
+@media(max-width: 1400px) {
+    body {
+        padding: 40px 111px 0 111px;
     }
 }
